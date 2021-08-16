@@ -1,0 +1,10 @@
+{
+  "header": [
+    { "name": "Products", "link": "#products" },
+    { "name": "How it works", "link": "how-it-works" },
+    { "name": "Resources", "link": "resources" },
+    { "name": "Company", "link": "company" },
+    { "name": "Contact", "link": "contact" }
+  ],
+  "footer": []
+}
