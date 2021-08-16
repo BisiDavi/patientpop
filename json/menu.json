@@ -6,5 +6,88 @@
     { "name": "Company", "link": "company" },
     { "name": "Contact", "link": "contact" }
   ],
-  "footer": []
+  "footer": [
+    {
+      "title": "Products",
+      "links": [
+        { "name": "Website", "link": "#website" },
+        {
+          "name": "Search Engine Optimization (SEO)",
+          "link": "#search-engine-optimization-seo"
+        },
+        { "name": "Social Media", "link": "#social-media" },
+        { "name": "Online Advertising", "link": "#online-advertising" },
+        { "name": "Online Scheduling", "link": "#online-scheduling" },
+        { "name": "Appointment Reminders", "link": "#appointment-reminders" },
+        { "name": "Marketing Campaigns", "link": "#marketing-campaigns" },
+        { "name": "Telehealth", "link": "#telehealth" },
+        { "name": "Text messaging", "link": "#text-messaging" },
+        {
+          "name": "Practice Growth Dashboard",
+          "link": "#[ractice-growth-dashboard"
+        },
+        { "name": "Digital registration", "link": "#digital-registration" },
+        { "name": "Digital fax", "link": "#digital-fax" },
+        { "name": "Reputation Management", "link": "#reputation-management" },
+        { "name": "Patient Reviews", "link": "#patient-reviews" },
+        {
+          "name": "Patient Satisfaction Surveys",
+          "link": "#patient-satisfaction-surveys"
+        },
+        { "name": "EMR & EHR Integration", "link": "#emr-ehr-integration" },
+        { "name": "How It Works", "link": "#how-it-works" },
+        { "name": "Healthcare Marketing", "link": "#healthcare-marketing" },
+        { "name": "Dental Marketing", "link": "#dental-marketing" },
+        { "name": "Medical Advertising", "link": "#medical-advertising" },
+        { "name": "Healthcare Website", "link": "#healthcare-website" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "name": "Resource Hub", "link": "#resource-hub" },
+        { "name": "Case Studies", "link": "#case-studies" },
+        { "name": "Podcast", "link": "#podcast" },
+        { "name": "Specialties", "link": "#specialties" },
+        { "name": "Videos", "link": "#videos" },
+        { "name": "Webinars", "link": "#webinars" },
+        { "name": "Whitepapers", "link": "#whitepapers" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "name": "About us", "link": "#about-us" },
+        { "name": "Leadership team", "link": "#leadership-team" },
+        { "name": "Our provider promise", "link": "#our-provider-promise" },
+        { "name": "News & Press", "link": "#news-press" },
+        { "name": "Awards", "link": "#awards" },
+        { "name": "Careers", "link": "#careers" },
+        { "name": "Refer-a-provider", "link": "#refer-a-provider" },
+        { "name": "Partners", "link": "#partners" },
+        { "name": "Blog", "link": "#blog" }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "links": [
+        { "name": "Phone", "link": "844-487-8399" },
+        { "name": "Support", "link": "patientpop.com/support" },
+        { "name": "Sales", "link": "sales@patientpop.com" },
+        {
+          "name": "Address",
+          "link": " 214 Wilshire Blvd, Santa Monica, CA 90401 PatientPop, Internet Marketing Services, Santa Monica, CA"
+        }
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    [
+      { "icon": "fa", "link": "#facebook" },
+      { "icon": "fa", "link": "#twitter" },
+      { "icon": "fa", "link": "#instagram" },
+      { "icon": "fa", "link": "#youtube" },
+      { "icon": "fa", "link": "#linkedin" }
+    ]
+  ]
 }
