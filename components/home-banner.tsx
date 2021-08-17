@@ -2,6 +2,7 @@ import { Button } from "@components/.";
 
 export default function HomeBanner() {
   return (
+    <>
     <section className="home-banner w-100 flex justify-center items-start h-screen">
       <div className="container pt-20 ml-40">
         <h1 className="text-6xl font-bold text-gray-700 w-1/4 my-2 leading-tight mt-24">
@@ -13,6 +14,7 @@ export default function HomeBanner() {
         </p>
         <Button className="py-4 ml-0" text="Request demo" />
       </div>
+    </section>
       <style>
         {`
           .home-banner{
@@ -22,6 +24,6 @@ export default function HomeBanner() {
           }
         `}
       </style>
-    </section>
+    </>
   );
 }

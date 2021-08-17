@@ -70,6 +70,7 @@
     },
     {
       "title": "Contact Us",
+      "tag": "contacts",
       "links": [
         { "name": "Phone", "link": "844-487-8399" },
         { "name": "Support", "link": "patientpop.com/support" },
