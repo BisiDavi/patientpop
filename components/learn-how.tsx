@@ -5,7 +5,7 @@ export default function LearnHowSection() {
   return (
     <>
       <section className="flex justify-center flex-col m-auto">
-        <div className="row-1 flex items-center py-20 bg-green-500 ">
+        <div className="row-1 flex items-center py-20">
           <div className="learn-how w-1/2 text-white text-center">
             <h5 className="text-white text-sm font-bold text-gray-200 my-2">
               LEARN HOW
