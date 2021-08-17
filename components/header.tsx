@@ -5,7 +5,7 @@ import { Logo, Button } from "@components/.";
 export default function Header() {
   return (
     <header className="bg-gray flex justify-center bg-white shadow-md">
-      <div className="content container flex items-center justify-between py-8">
+      <div className="content container flex items-center justify-between py-8 px-20">
         <Logo />
         <ul className="flex align-items-center">
           {menuLinks.header.map((menu, index) => (

@@ -2,20 +2,26 @@ import { Button } from "@components/.";
 
 export default function LearnHowSection() {
   return (
-    <section>
-      <div className="learn-how">
-        <h5>LEARN HOW</h5>
-        <p>Attract more patients</p>
+    <section className="flex justify-center flex-col m-auto">
+      <div className="row-1 flex items-center py-20 bg-green-500 ">
+        <div className="learn-how w-1/2 text-white text-center">
+          <h5 className="text-white text-sm font-bold text-gray-200 my-2">
+            LEARN HOW
+          </h5>
+          <p className="text-2xl">Attract more patients</p>
+        </div>
+        <div className="learn-how w-1/2 text-white text-center">
+          <h5 className="text-white text-sm font-bold text-gray-200 my-2">
+            LEARN HOW
+          </h5>
+          <p className="text-2xl">Modernize your patient experience</p>
+        </div>
       </div>
-      <div>
-        <h5>LEARN HOW</h5>
-        <p>Modernize your patient experience</p>
-      </div>
-      <div>
-        <h3>
+      <div className="row-2 bg-gray-700 py-32 flex items-center justify-around text-white">
+        <h3 className="text-3xl w-1/3 leading-snug font-semibold">
           Discover the only complete practice growth platform in healthcare.
         </h3>
-        <Button className="bg-green" text="Schedule a demo" />
+        <Button className="px-12 py-4 " text="Schedule a demo" />
       </div>
     </section>
   );

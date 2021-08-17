@@ -3,14 +3,11 @@ import { Button } from "@components/.";
 export default function HomeBanner() {
   return (
     <section className="home-banner w-100 flex justify-center items-start">
-      <div className="container pt-20">
-        <h1 className="text-5xl font-bold text-gray-600 leading-loose">
-          Manage your
+      <div className="container pt-20 ml-40">
+        <h1 className="text-6xl font-bold text-gray-700 w-1/4 my-2 leading-tight">
+          Manage your reputation
         </h1>
-        <h1 className="text-5xl font-bold text-gray-600 leading-none mb-6">
-          reputation
-        </h1>
-        <p className="text-xl text-gray-500 font-medium leading-8 w-96 mb-8">
+        <p className="text-xl text-gray-500 font-medium leading-8 w-96 mt-6 mb-8">
           Get valuable feedback from more patients and experience the positive
           effects it has on your online reputation.
         </p>
