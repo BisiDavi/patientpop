@@ -1,10 +1,10 @@
 {
   "header": [
     { "name": "Products", "link": "#products" },
-    { "name": "How it works", "link": "how-it-works" },
-    { "name": "Resources", "link": "resources" },
-    { "name": "Company", "link": "company" },
-    { "name": "Contact", "link": "contact" }
+    { "name": "How it works", "link": "#how-it-works" },
+    { "name": "Resources", "link": "#resources" },
+    { "name": "Company", "link": "#company" },
+    { "name": "Contact", "link": "#contact" }
   ],
   "footer": [
     {
@@ -81,7 +81,7 @@
       ]
     }
   ],
-  "footerBottomLinks": [
+  "socialLinks": [
     [
       { "icon": "fa", "link": "#facebook" },
       { "icon": "fa", "link": "#twitter" },
@@ -89,5 +89,11 @@
       { "icon": "fa", "link": "#youtube" },
       { "icon": "fa", "link": "#linkedin" }
     ]
+  ],
+  "bottomLinks": [
+    { "name": "Privacy Policy", "link": "#privacy-policy" },
+    { "name": "Terms & Conditions", "link": "#terms-conditions" },
+    { "name": "Terms of Service", "link": "#terms-of-service" },
+    { "name": "HIPAA Compliance", "link": "#hipaa-compliance" }
   ]
 }
