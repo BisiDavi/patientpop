@@ -31,6 +31,9 @@ export default function LearnHowSection() {
           section.flex {
             background-color: ${theme.colors.green};
           }
+          .row-2 {
+            background-color: ${theme.colors.gray};
+          }
         `}
       </style>
     </>
