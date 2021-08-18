@@ -13,7 +13,7 @@ export default function Button({
       >
         {text}
         {withIcon && (
-          <img src="./arrow-icon.png" className="ml-6" alt="right icon" />
+          <img src="./arrow-icon.png" className="ml-4" alt="right icon" />
         )}
       </button>
       <style jsx>

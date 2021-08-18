@@ -24,7 +24,7 @@ export default function Header() {
         <Logo offset={offset} />
         <ul className="lg:flex hidden kwitems-center">
           {menuLinks.header.map((menu, index) => (
-            <li className="mx-6 font-bold" key={index}>
+            <li className="mx-6 font-medium text-gray-700" key={index}>
               <Link href={menu.link} passHref>
                 <a>{menu.name}</a>
               </Link>
@@ -33,7 +33,7 @@ export default function Header() {
         </ul>
         <div className="signin hidden lg:flex items-center">
           <h3>Sign in</h3>
-          <Button text="Free demo" />
+          <Button text="Free demo" className="lg:mx-8 lg:px-0" />
         </div>
         <Hamburger
           className={`lg:hidden flex" ${hamburgerStyle}`}
