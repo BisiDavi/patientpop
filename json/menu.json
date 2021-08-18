@@ -83,13 +83,11 @@
     }
   ],
   "socialLinks": [
-    [
-      { "icon": "fa", "link": "#facebook" },
-      { "icon": "fa", "link": "#twitter" },
-      { "icon": "fa", "link": "#instagram" },
-      { "icon": "fa", "link": "#youtube" },
-      { "icon": "fa", "link": "#linkedin" }
-    ]
+    { "icon": "fab fa-facebook-f", "link": "#facebook" },
+    { "icon": "fab fa-twitter", "link": "#twitter" },
+    { "icon": "fab fa-instagram", "link": "#instagram" },
+    { "icon": "fab fa-youtube", "link": "#youtube" },
+    { "icon": "fab fa-linkedin-in", "link": "#linkedin" }
   ],
   "bottomLinks": [
     { "name": "Privacy Policy", "link": "#privacy-policy" },

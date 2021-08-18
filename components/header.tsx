@@ -5,9 +5,9 @@ import { Logo, Button } from "@components/.";
 export default function Header() {
   return (
     <header className="bg-gray flex justify-center bg-white shadow-md fixed top-0 w-full">
-      <div className="content container flex items-center justify-between py-4 px-20">
+      <div className="content container flex items-center justify-between py-4 px-4 lg:px-20 ">
         <Logo />
-        <ul className="flex align-items-center">
+        <ul className="lg:flex hidden kwitems-center">
           {menuLinks.header.map((menu, index) => (
             <li className="mx-6 font-bold" key={index}>
               <Link href={menu.link} passHref>
@@ -16,7 +16,7 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <div className="signin flex items-center">
+        <div className="signin hidden lg:flex items-center">
           <h3>Sign in</h3>
           <Button text="Free demo" />
         </div>

@@ -6,13 +6,15 @@ import content from "@json/info-section.json";
 export default function InfoSection() {
   function displayInfoText(service) {
     return (
-      <div className="text wtext w-2/5">
-        <h3 className="text-5xl font-bold my-4">{service.title}</h3>
-        <p className="text-xl leading-8 my-4 text-gray-600 font-medium">
+      <div className="text lg:w-2/5 order-2 lg:order-none px-10 lg:px-0">
+        <h3 className="text-2xl font-medium text-gray-800 lg:text-5xl lg:font-bold my-4">
+          {service.title}
+        </h3>
+        <p className="text-lg font-normal leading-6 lg:text-xl lg:leading-8 my-4 text-gray-600 lg:font-medium">
           {service.text}
         </p>
         <Link href={service.link}>
-          <a className="text-xl font-semibold border-b-4 border-green-400 pb-2 text-gray-600">
+          <a className="text-md lg:text-xl font-semibold border-b-4 border-green-400 pb-2 text-gray-600">
             {service.linkName}
           </a>
         </Link>
@@ -21,14 +23,14 @@ export default function InfoSection() {
   }
   return (
     <section className="container m-auto py-20 bg-white">
-      <div className="patient-satisfaction">
+      <div className="patient-satisfaction px-6 lg:px-0">
         <h6 className="text-sm text-center text-green-500 font-bold">
           PATIENT SATISFACTION
         </h6>
-        <h1 className="text-6xl m-auto text-center w-4/6 my-6 font-semibold text-gray-600">
+        <h1 className="text-2xl lg:text-6xl m-auto text-center w-5/6 lg:w-4/6 my-6 font-semibold text-gray-600">
           {content.intro.title}
         </h1>
-        <p className="text-2xl w-3/4 text-center m-auto my-4 leading-9 text-gray-600">
+        <p className="text-xl font-normal leading-7 lg:text-xl lg:leading-8 my-4 text-gray-600 lg:font-medium">
           {content.intro.text}
         </p>
 
@@ -46,11 +48,11 @@ export default function InfoSection() {
           return service.position === "inverted" ? (
             <div
               key={index}
-              className="info flex items-center justify-center my-16"
+              className="info flex flex-col lg:flex-row items-center justify-center my-16"
             >
               {displayInfoText(service)}
               <img
-                className="max-w-2xl ml-12"
+                className="max-w-2xl xl:ml-12 order-1 px-6 lg:px-0 lg:order-none"
                 src={service.image}
                 height="100%"
                 width="100%"
@@ -60,11 +62,11 @@ export default function InfoSection() {
           ) : (
             <div
               key={index}
-              className="info flex items-center justify-center my-16"
+              className="info md:flex-col lg:flex-row lg:flex items-center justify-center my-16"
             >
               <img
                 src={service.image}
-                className="max-w-2xl mr-12"
+                className="max-w-2xl xl:mr-12 order-1 px-6 lg:px-0 lg:order-none"
                 height="100%"
                 width="100%"
                 alt={service.title}
