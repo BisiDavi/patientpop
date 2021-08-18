@@ -24,7 +24,7 @@ export default function LearnHowSection() {
           <h3 className="text-xl lg:text-3xl  lg:w-1/3 leading-snug font-semibold my-8 text-center lg:text-left">
             Discover the only complete practice growth platform in healthcare.
           </h3>
-          <Button className="px-12 py-4 " text="Schedule a demo" />
+          <Button className="px-12 py-4 lg:py-6 lg:px-14 lg:text-xl" text="Schedule a demo" />
         </div>
       </section>
       <style jsx>
