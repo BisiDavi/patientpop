@@ -33,7 +33,7 @@ export default function InfoSection() {
           {content.intro.text}
         </p>
 
-        <div className="source flex items-center lg:flex-col lg:items-end xl:mr-32">
+        <div className="source flex lg:items-center flex-col lg:items-end xl:mr-32">
           <p className="text-right text-gray-400 text-xs">
             {content.intro.info}
           </p>
