@@ -1,4 +1,4 @@
-import { Header, Footer, Notify } from "@components/.";
+import { Header, Footer, FooterNotify } from "@components/.";
 import Head from "next/head";
 import { PropsWithChildren } from "react";
 
@@ -14,7 +14,7 @@ export default function Layout({
       <Header />
       <main>{children}</main>
       <Footer />
-      <Notify />
+      <FooterNotify />
     </div>
   );
 }

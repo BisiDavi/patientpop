@@ -27,10 +27,10 @@ export default function InfoSection() {
         <h6 className="text-sm text-center text-green-500 font-bold">
           PATIENT SATISFACTION
         </h6>
-        <h1 className="text-2xl lg:text-6xl m-auto text-center w-5/6 lg:w-4/6 my-6 font-semibold text-gray-600">
+        <h1 className="text-2xl lg:text-5xl m-auto text-center w-5/6 lg:w-2/5 my-6 lg:font-medium text-gray-700 lg:leading-tight">
           {content.intro.title}
         </h1>
-        <p className="text-xl font-normal leading-7 lg:text-xl lg:leading-8 my-4 text-gray-600 lg:font-medium">
+        <p className="text-xl font-normal leading-7 lg:text-xl lg:leading-8 my-4 text-gray-500 lg:font-normal lg:w-1/2 lg:m-auto">
           {content.intro.text}
         </p>
 

@@ -1,14 +1,15 @@
 import { Button } from "@components/.";
 
-export default function Notify() {
+export function Notify({ text, buttonText, className }: Notify) {
   return (
     <>
-      <div className="notify flex items-center py-4 justify-center fixed bottom-0 bg-white w-full">
+      <div
+        className={` ${className} notify flex items-center py-4 justify-center fixed bottom-0 bg-white w-full`}
+      >
         <p className="text-sm leading-4 text-center lg:text-lg font-semibold text-gray-500 mb-0">
-          Instantly see how you compare to other practices in your local area
-          and specialty.
+          {text}
         </p>
-        <Button className="py-1 mx-8" text="Compare" />
+        <Button className="py-1 mx-8" text={buttonText} />
       </div>
       <style jsx>
         {`
@@ -18,5 +19,29 @@ export default function Notify() {
         `}
       </style>
     </>
+  );
+}
+
+interface Notify {
+  text: string;
+  buttonText: string;
+  className: string;
+}
+
+export default function FooterNotify() {
+  return (
+    <div className="footerNotify">
+      <Notify
+        text="Instantly see how you compare to other practices in your local area
+          and specialty."
+        buttonText="Compare"
+        className="hidden lg:flex"
+      />
+      <Notify
+        text="How do you compare to competitors?"
+        buttonText="Go"
+        className="flex lg:hidden"
+      />
+    </div>
   );
 }

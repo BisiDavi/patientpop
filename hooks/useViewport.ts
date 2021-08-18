@@ -4,21 +4,14 @@ export default function useViewport() {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const [innerHeight, setInnerHeight] = useState(window.innerHeight);
 
-  function handleWidthResize() {
-    setInnerWidth(window.innerWidth);
-  }
-
-  function handleHeightResize() {
-    setInnerHeight(window.innerHeight);
-  }
   useEffect(() => {
-    window.addEventListener("resize", handleWidthResize);
-    return () => window.removeEventListener("resize", handleWidthResize);
-  }, []);
+    function handleWindowResize() {
+      setInnerHeight(window.innerHeight);
+      setInnerWidth(window.innerWidth);
+    }
 
-  useEffect(() => {
-    window.addEventListener("resize", handleHeightResize);
-    return () => window.removeEventListener("resize", handleHeightResize);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
   console.log("innerWidth", innerWidth);
