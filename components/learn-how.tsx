@@ -10,13 +10,15 @@ export default function LearnHowSection() {
             <h5 className="text-white text-sm font-bold text-gray-200 my-2">
               LEARN HOW
             </h5>
-            <p className="text-2xl">Attract more patients</p>
+            <p className="lg:text-2xl text-xl">Attract more patients</p>
           </div>
           <div className="learn-how w-full lg:w-1/2 text-white text-center">
             <h5 className="text-white text-sm font-bold text-gray-200 my-2">
               LEARN HOW
             </h5>
-            <p className="text-2xl">Modernize your patient experience</p>
+            <p className="lg:text-2xl text-xl">
+              Modernize your patient experience
+            </p>
           </div>
         </div>
 
@@ -24,7 +26,10 @@ export default function LearnHowSection() {
           <h3 className="text-xl lg:text-3xl  lg:w-1/3 leading-snug font-semibold my-8 text-center lg:text-left">
             Discover the only complete practice growth platform in healthcare.
           </h3>
-          <Button className="px-12 py-4 lg:py-6 lg:px-14 lg:text-xl" text="Schedule a demo" />
+          <Button
+            className="px-12 py-4 lg:py-6 lg:px-14 lg:text-xl"
+            text="Schedule a demo"
+          />
         </div>
       </section>
       <style jsx>
