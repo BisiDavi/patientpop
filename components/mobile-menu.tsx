@@ -18,12 +18,15 @@ export default function Mobilemenu({
           btnClick={mobileMenuHandler}
         />
       </header>
-      <div className="menu-links flex flex-col px-8">
+      <div className="menu-links flex flex-col px-8 mt-10">
         {menuLinks.header.map((link, index) => (
           <Link href={link.link} key={index} passHref>
-            <a className="my-2">{link.name}</a>
+            <a className="my-2 font-bold text-gray-600 text-xl">{link.name}</a>
           </Link>
         ))}
+        <Link href="#sign-in" passHref>
+          <a className="my-2 font-bold text-gray-600 text-xl">Sign in</a>
+        </Link>
       </div>
     </div>
   );
