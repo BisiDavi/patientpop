@@ -6,10 +6,13 @@ export function Notify({ text, buttonText, className }: Notify) {
       <div
         className={` ${className} notify flex items-center py-4 justify-center fixed bottom-0 bg-white w-full`}
       >
-        <p className="text-sm leading-4 text-center lg:text-lg font-semibold text-gray-500 mb-0">
+        <p className="text-sm font-normal leading-4 text-center lg:text-lg lg:font-semibold text-gray-500 mb-0">
           {text}
         </p>
-        <Button className="py-1 mx-8" text={buttonText} />
+        <Button
+          className="py-1 text-sm lg:text-md px-4 mx-2 lg:mx-8"
+          text={buttonText}
+        />
       </div>
       <style jsx>
         {`

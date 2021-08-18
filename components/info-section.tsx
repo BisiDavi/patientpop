@@ -33,11 +33,11 @@ export default function InfoSection() {
           {content.intro.text}
         </p>
 
-        <div className="source flex items-center lg:flex-col">
-          <p className="text-right text-gray-400 text-xs lg:text-sm">
+        <div className="source flex items-center lg:flex-col lg:items-end xl:mr-32">
+          <p className="text-right text-gray-400 text-xs">
             {content.intro.info}
           </p>
-          <p className="text-rightlg:text-sm text-xs text-gray-400">
+          <p className="text-right text-xs text-gray-400">
             {content.intro.category}
           </p>
         </div>

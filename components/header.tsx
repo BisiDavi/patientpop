@@ -12,7 +12,7 @@ export default function Header() {
     <header
       className={`bg-gray flex justify-center ${headerStyle} lg:bg-white lg:shadow-md fixed top-0 w-full`}
     >
-      <div className="content container flex items-center justify-between py-4 px-4 lg:px-20 ">
+      <div className="content container flex items-center justify-between p-2 lg:px-20 ">
         <Logo offset={offset} />
         <ul className="lg:flex hidden kwitems-center">
           {menuLinks.header.map((menu, index) => (

@@ -4,7 +4,7 @@ export default function Button({ text, className, withIcon }: ButtonProps) {
   return (
     <>
       <button
-        className={`${className} button text-white px-6 py-2 mx-4 rounded-full font-bold`}
+        className={`${className} button text-white lg:px-6 lg:py-2 mx-4 rounded-full font-bold`}
       >
         {text}
       </button>
