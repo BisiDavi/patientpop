@@ -20,7 +20,7 @@ export default function Header() {
     <header
       className={`bg-gray flex justify-center ${headerStyle} lg:bg-white lg:shadow-md fixed top-0 w-full`}
     >
-      <nav className="content container flex items-center justify-between p-2 lg:px-20 ">
+      <nav className="content container flex items-center justify-between p-2 lg:p-4 lg:px-20 ">
         <Logo offset={offset} />
         <ul className="lg:flex hidden kwitems-center">
           {menuLinks.header.map((menu, index) => (
@@ -36,7 +36,7 @@ export default function Header() {
           <Button text="Free demo" />
         </div>
         <Hamburger
-          className={`lg:hidden" ${hamburgerStyle}`}
+          className={`lg:hidden flex" ${hamburgerStyle}`}
           btnClick={mobileMenuHandler}
         />
       </nav>
