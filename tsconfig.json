@@ -18,6 +18,7 @@
       "@components/*": ["components/*"],
       "@layout/*": ["layout/*"],
       "@json/*": ["json/*"],
+      "@hooks/*": ["hooks/*"],
       "@styles/*": ["styles/*"]
     }
   },

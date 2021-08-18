@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Link from "next/link";
 import content from "@json/info-section.json";
 
@@ -34,11 +33,11 @@ export default function InfoSection() {
           {content.intro.text}
         </p>
 
-        <div className="source">
-          <p className="text-right text-gray-400 text-sm">
+        <div className="source flex items-center lg:flex-col">
+          <p className="text-right text-gray-400 text-xs lg:text-sm">
             {content.intro.info}
           </p>
-          <p className="text-right text-sm text-gray-400">
+          <p className="text-rightlg:text-sm text-xs text-gray-400">
             {content.intro.category}
           </p>
         </div>

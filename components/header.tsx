@@ -1,12 +1,19 @@
 import Link from "next/link";
 import menuLinks from "@json/menu.json";
+import useViewport from "@hooks/useViewport";
 import { Logo, Button } from "@components/.";
 
 export default function Header() {
+  const { offset } = useViewport();
+
+  const headerStyle = offset > 100 ? "bg-white" : "";
+
   return (
-    <header className="bg-gray flex justify-center bg-white shadow-md fixed top-0 w-full">
+    <header
+      className={`bg-gray flex justify-center ${headerStyle} lg:bg-white lg:shadow-md fixed top-0 w-full`}
+    >
       <div className="content container flex items-center justify-between py-4 px-4 lg:px-20 ">
-        <Logo />
+        <Logo offset={offset} />
         <ul className="lg:flex hidden kwitems-center">
           {menuLinks.header.map((menu, index) => (
             <li className="mx-6 font-bold" key={index}>
