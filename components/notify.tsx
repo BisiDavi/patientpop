@@ -12,6 +12,7 @@ export function Notify({ text, buttonText, className }: Notify) {
         <Button
           className="py-1 text-sm lg:text-md px-4 mx-2 lg:mx-8"
           text={buttonText}
+          withIcon={false}
         />
       </div>
       <style jsx>

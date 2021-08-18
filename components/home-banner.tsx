@@ -12,7 +12,7 @@ export default function HomeBanner() {
             Get valuable feedback from more patients and experience the positive
             effects it has on your online reputation.
           </p>
-          <Button className="py-2 lg:py-4 ml-0 lg:w-40" text="Request demo" />
+          <Button className="py-4 px-6 ml-0 lg:w-40" text="Request demo" />
         </div>
       </section>
       <style jsx>
